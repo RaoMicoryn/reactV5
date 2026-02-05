@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "segoe UI", Arial, sans-serif;
+    background: #eef2ff;
+    color: #1f2937
+}
+
+.app {
+    max-height: 100vh;
+    padding: 100px 540px; 
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 32px;
+    font-size: 2.5rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 100%;
+}
+
+.card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+select {
+    margin: 12px 0;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid #c7d2fe;
+    font-size: 14px;
+}
+
+ul {
+    padding-left: 18px;
+}
+
+li {
+    margin-bottom: 6px;
+    font-size: 14px;
+}
